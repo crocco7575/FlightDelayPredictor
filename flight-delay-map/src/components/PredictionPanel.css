@@ -1,0 +1,35 @@
+.prediction-panel { 
+    padding: 12px; 
+    border: 1px solid #2e2e2e; 
+    border-radius: 10px; 
+    background:#111; 
+    color:#eee; 
+}
+.prediction-panel h2 { 
+    margin: 0 0 8px; 
+}
+.meta { 
+    font-size: 0.9rem; 
+    opacity: 0.9; 
+    display: flex; 
+    gap: 16px; 
+    margin-bottom: 8px; 
+}
+.skeleton { 
+    opacity: 0.7; }
+.error { 
+    color: #ff6b6b; 
+}
+.result .value { 
+    font-size: 1.1rem; 
+    margin: 8px 0; 
+}
+.factors { 
+    margin-top: 8px; 
+    padding-left: 18px; 
+}
+.factors li { 
+    display:flex; 
+    justify-content:space-between; 
+    gap:12px; 
+}

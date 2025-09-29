@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+  
+}
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 60px;
+  border-bottom: 2px solid #00aaff;
+}
+
+/* App title */
+h1 {
+  font-size: 36px;
+  color: #00aaff;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Logo image */
+.logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.top{
+  background-color: black;
+}
+
+.map-and-panel {
+  display: block;
+  grid-template-columns: 2fr 1fr; /* map wider than panel */
+  gap: 16px;
+  align-items: start;
+
+}
